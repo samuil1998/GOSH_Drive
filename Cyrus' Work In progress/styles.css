@@ -5,7 +5,10 @@
 .slider-preview{
     outline-color: aquamarine;
     outline-style: double;
-
+    
+    margin-left: auto;
+    margin-right:auto;
+     
     width:400px;
     height: 400px;
 }
@@ -13,6 +16,11 @@
 .slider-nav{
     outline-color: blue;
     outline-style: solid;
+    height: fit-content;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+     
 }
 .smallPics{
     outline-color:salmon;
