@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.holographic-blue {
+	color: #33b5e5;
+	font-size:3em;
+	font-family: "Times New Roman";
+	text-align: center;
+}
+.holographic-orange{
+	border: .5em solid #e56333;
+}
+
+</style>
+
+
+<body style= "background-color: Black;"">
+
+<nav class="navbar navbar-inverse" style= "background-color: Black;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<p class="navbar-brand">Website Logo</p>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="patient_screen.html">Back</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div style="padding:0em 0em 4em">
+	<h1 class = "holographic-blue" style="font-size: 5em">Patient Data</h1>
+</div>
+
+<ul class="nav nav-pills nav-stacked holographic-blue">
+	<li class="active"><a href="#">Home</a></li>
+	<li class="collapse">
+
+		<a data-toggle="collapse" data-target="#demo">Date/Month/1</a>
+
+		<ul class="collapse" id="demo">
+			<li><a href="#">Symptom 1</a></li>
+			<li><a href="#">Symptom 2</a></li>
+			<li><a href="#">Symptom 3</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Date/Month/2</a></li>
+	<li><a href="#">Date/Month/3</a></li>
+	<li><a href="#">Date/Month/4</a></li>
+	<li><a href="#">Date/Month/5</a></li>
+</ul>
+
+
+</body>
+</html> 
