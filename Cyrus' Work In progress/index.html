@@ -9,23 +9,22 @@
   </head>
   <body>
     <div class= "sliderholder">
-            <h2>Slider Syncing</h2>
 			<div class="slider slider-preview slider-gen">
-                    <div><img src="pics\num1.png" alt=""></div>
-                    <div><img src="pics\num2.png" alt=""></div>
-                    <div><img src="pics\num3.png" alt=""></div>
-                    <div><img src="pics\num4.png" alt=""></div>
-                    <div><img src="pics\num5.png" alt=""></div>
-                    <div><img src="pics\num6.png" alt=""></div>
+                    <div><img src="pics\num1_1.png" alt="" class ="flipImg"></div>
+                    <div><img src="pics\num2_1.png" alt="" class ="flipImg"></div>
+                    <div><img src="pics\num3_1.png" alt="" class ="flipImg"></div>
+                    <div><img src="pics\num4_1.png" alt="" class ="flipImg"></div>
+                    <div><img src="pics\num5_1.png" alt="" class ="flipImg"></div>
+                    <div><img src="pics\num6_1.png" alt="" class ="flipImg"></div>
 			</div>
 			<div class="slider slider-nav">
                 
-                    <div class ="smallPics"><img src="pics\num1.png" alt=""></div>
-                    <div class ="smallPics"><img src="pics\num2.png" alt=""></div>
-                    <div class ="smallPics"><img src="pics\num3.png" alt=""></div>
-                    <div class ="smallPics"><img src="pics\num4.png" alt=""></div>
-                    <div class ="smallPics"><img src="pics\num5.png" alt=""></div>
-                    <div class ="smallPics"><img src="pics\num6.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num1_1.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num2_1.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num3_1.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num4_1.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num5_1.png" alt=""></div>
+                    <div class ="smallPics"><img src="pics\num6_1.png" alt=""></div>
 			</div>
     
 
@@ -43,14 +42,27 @@
         fade: true,
         asNavFor: '.slider-nav'
         });
+        
         $('.slider-nav').slick({
         slidesToShow:3,
         slidesToScroll: 1,
         asNavFor: '.slider-preview',
+        arrows:false,
         dots: true,
         centerMode: true,
         focusOnSelect: true
-        });        
+        });
+        
+        $(".flipImg").live('click', function() {
+          if ($(this).attr("class") == "flipImg") {
+            this.src = this.src.replace("_2","_1");
+          } else {
+            this.src = this.src.replace("_1","_2");
+          }
+          $(this).toggleClass("_1");
+        });
+    
+        
     });
 
   </script>
