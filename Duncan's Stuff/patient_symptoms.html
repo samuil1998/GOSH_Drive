@@ -19,6 +19,11 @@
 .holographic-orange{
 	border: .5em solid #e56333;
 }
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 3em;
+    height: 3em;
+}
 
 </style>
 
@@ -30,15 +35,16 @@
 		<div class="navbar-header">
 			<p class="navbar-brand">Website Logo</p>
 		</div>
-		<ul class="nav navbar-nav">
+		<ul class="nav navbar-nav" style="font-size:1.5em">
 			<li class="active"><a href="patient_screen.html">Back</a></li>
 		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		</ul>
+		<ul class="nav navbar-nav navbar-right" style="font-size:1.5em">
+		      <li><a href="#"><img src = "add_folder.png" alt="folder" class = "img-rounded" style="height:3em; width:3em"> Profile</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></li>
+       </ul>
 	</div>
 </nav>
+
 
 <div style="padding:0em 0em 4em">
 	<h1 class = "holographic-blue" style="font-size: 5em">Patient Data</h1>
