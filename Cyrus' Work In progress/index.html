@@ -55,9 +55,9 @@
         
         $(".flipImg").live('click', function() {
           if ($(this).attr("class") == "flipImg") {
-            this.src = this.src.replace("_2","_1");
-          } else {
             this.src = this.src.replace("_1","_2");
+          } else {
+            this.src = this.src.replace("_2","_1");
           }
           $(this).toggleClass("_1");
         });
