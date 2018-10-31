@@ -8,12 +8,12 @@ body{
 }
 
 .profile{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     position:absolute;
-    top:-50px;
-    left: 110px;
+    top:-100px;
+    left: 55px;
 }
 
 
