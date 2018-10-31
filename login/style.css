@@ -40,6 +40,17 @@ input[type=text]{
     box-shadow: insert 0px -5px 45px rgba(143, 172, 216, 0.322);
     border-radius: 5px;
 }
+input[type=password]{
+    display: block;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    background: #fff;
+    border:1px solid rgba(0,0,0,0.3);
+    box-shadow: insert 0px -5px 45px rgba(143, 172, 216, 0.322);
+    border-radius: 5px;
+}
 
 input[type=submit]{
     width: 320px;

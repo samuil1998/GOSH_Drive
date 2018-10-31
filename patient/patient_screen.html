@@ -12,8 +12,16 @@
     .holographic-blue {
       color: #33b5e5;
       font-size: 3em;
-      font-family: "Times New Roman";
+      font-family: "Courier New";
       text-align: center;
+    }
+
+    .header-grey{
+      color: #B2B2B2;
+      font-size: 1em;
+      font-family: "Courier New";
+      text-align: center;
+
     }
 
     .holographic-orange {
@@ -30,28 +38,28 @@
   </style>
 </head>
 
-<body style="background-color: Black;" "="">
+<body style="background-color: Black;">
 
 <div class=" container">
   <nav class="navbar navbar-inverse " style="background-color: Black;">
     <div class="container-fluid">
       <div class="navbar-header">
-        <p class="navbar-brand">Website Logo</p>
+        <img src = "../pics/Logo.png" height = "85" width = "160" >
       </div>
       <ul class="nav navbar-nav" style="font-size:1.5em">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li class="active header-grey"><a href="#">Home</a></li>
+        <li><a href="#" class="header-grey">Page 1</a></li>
+        <li><a href="#" class="header-grey">Page 2</a></li>
+        <li><a href="#" class="header-grey">Page 3</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right" style="font-size:1.5em">
-        <li><a href="#"><img src="add_folder.png" alt="folder" class="img-rounded" style="height:3em; width:5.5em"> Profile</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></li>
+        <li><a href="#" class = "header-grey"><img src = "../pics/doctor.png" alt="folder" class = "img-rounded" style="height:3em; width:3em"> Profile</a></li>
+        <li><a href="../login/index.html" class = "header-grey"><span class="glyphicon glyphicon-log-in "></span> Sign Out</a></li>
       </ul>
     </div>
   </nav>
   <div style="padding:0em 0em 4em">
-    <h1 class="holographic-blue" style="font-size: 5em">Patient Data</h1>
+    <h1 class="holographic-blue" font-size: 5em>Patient Data</h1>
   </div>
   <div class="row">
     <div class="col-sm-4" align="middle">
@@ -62,11 +70,11 @@
       <a href="patient_symptoms.html">
         <img src="Thomas.png" alt="folder" class="holographic-orange img-rounded">
       </a>
-      <p class="holographic-blue">Thomas</p>
+      <p class="holographic-blue"> Thomas Smith</p>
     </div>
     <div class="col-sm-4" align="middle">
       <img src="Anna.png" alt="folder" class="holographic-orange img-rounded">
-      <p class="holographic-blue">Anna</p>
+      <p class="holographic-blue"> Anna Charles</p>
     </div>
   </div>
   <div class="row">

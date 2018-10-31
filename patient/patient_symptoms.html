@@ -13,9 +13,19 @@
 .holographic-blue {
 	color: #33b5e5;
 	font-size:3em;
-	font-family: "Times New Roman";
+	font-family: "Courier New";
 	text-align: center;
 }
+
+.header-grey{
+	color: #B2B2B2;
+	font-size: 1em;
+	font-family: "Courier New";
+	text-align: center;
+
+
+}
+
 .holographic-orange{
 	border: .5em solid #e56333;
 }
@@ -28,22 +38,23 @@
 </style>
 
 
-<body style= "background-color: Black;"">
-
-<nav class="navbar navbar-inverse" style= "background-color: Black;">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<p class="navbar-brand">Website Logo</p>
+<body style= "background-color: Black;">
+<div class=" container">
+	<nav class="navbar navbar-inverse" style= "background-color: Black;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<img src = "../pics/Logo.png" height = "85" width = "160" >
+			</div>
+			<ul class="nav navbar-nav" style="font-size:1.5em">
+				<li class="active header-grey"><a href="patient_screen.html">Back</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" style="font-size:1.5em">
+			      <li><a href="#" class = "header-grey"><img src = "../pics/doctor.png" alt="folder" class = "img-rounded" style="height:3em; width:3em"> Profile</a></li>
+			      <li><a href="../login/index.html" class = "header-grey"><span class="glyphicon glyphicon-log-in "></span> Sign Out</a></li>
+	       </ul>
 		</div>
-		<ul class="nav navbar-nav" style="font-size:1.5em">
-			<li class="active"><a href="patient_screen.html">Back</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right" style="font-size:1.5em">
-		      <li><a href="#"><img src = "add_folder.png" alt="folder" class = "img-rounded" style="height:3em; width:3em"> Profile</a></li>
-		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></li>
-       </ul>
-	</div>
-</nav>
+	</nav>
+</div>
 
 
 <div style="padding:0em 0em 4em">
@@ -51,10 +62,10 @@
 </div>
 
 <ul class="nav nav-pills nav-stacked holographic-blue">
-	<li class="active"><a href="#">Home</a></li>
+	<li class="active"><a href="patient_screen.html">Home</a></li>
 	<li class="collapse">
 
-		<a data-toggle="collapse" data-target="#demo">Date/Month/1</a>
+		<a data-toggle="collapse" data-target="#demo">Appointment on DD/MM/YYYY</a>
 
 		<ul class="collapse" id="demo">
 			<li><a href="#">Symptom 1</a></li>
@@ -62,12 +73,12 @@
 			<li><a href="#">Symptom 3</a></li>
 		</ul>
 	</li>
-	<li><a href="#">Date/Month/2</a></li>
-	<li><a href="#">Date/Month/3</a></li>
-	<li><a href="#">Date/Month/4</a></li>
-	<li><a href="#">Date/Month/5</a></li>
+	<li><a href="#">Appointment on DD/MM/YYYY</a></li>
+	<li><a href="#">Appointment on DD/MM/YYYY</a></li>
+	<li><a href="#">Appointment on DD/MM/YYYY</a></li>
+	<li><a href="#">Appointment on DD/MM/YYYY</a></li>
 </ul>
 
 
 </body>
-</html> 
+</html>
