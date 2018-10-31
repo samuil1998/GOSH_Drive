@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Patient View</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .holographic-blue {
+      color: #33b5e5;
+      font-size: 3em;
+      font-family: "Courier New";
+      text-align: center;
+    }
+
+    .header-grey{
+      color: #B2B2B2;
+      font-size: 1em;
+      font-family: "Courier New";
+      text-align: center;
+
+    }
+
+    .holographic-orange {
+      /*border: .25em solid #e56333;*/
+      height: 10em;
+      width: 17em;
+    }
+
+    .navbar-brand,
+    .navbar-nav li a {
+      line-height: 3em;
+      height: 3em;
+    }
+
+    .center
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body style="background-color: Black;">
+
+<div class=" container">
+  <nav class="navbar navbar-inverse " style="background-color: Black;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src = "../pics/Logo.png" height = "85" width = "160" >
+      </div>
+      <ul class="nav navbar-nav" style="font-size:1.5em">
+        <li class="active header-grey"><a href="#">Home</a></li>
+        <li><a href="#" class="header-grey">Page 1</a></li>
+        <li><a href="#" class="header-grey">Page 2</a></li>
+        <li><a href="#" class="header-grey">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="font-size:1.5em">
+        <li><a href="../profile/profile.html" class = "header-grey"><img src = "../pics/doctor.png" alt="folder" class = "img-rounded" style="height:3em; width:3em"> Profile</a></li>
+        <li><a href="../index.html" class = "header-grey"><span class="glyphicon glyphicon-log-in "></span> Sign Out</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<img src="../pics/doctor.png" class = "center" style="width:20em">
+<h1 class="holographic-blue">Dr S Johnson</h1>
+<h3 class="holographic-blue" style="font-size:2em">Clinician ID: <span style="color:white">12152912</span></h3>
+<h3 class="holographic-blue" style="font-size:2em">Department: <span style="color:white">Cardiology</span></h3>
+<h3 class="holographic-blue" style="font-size:2em">Hospital: <span style="color:white">Great Ormond Street Hospital</span></h3>
+<h3 class="holographic-blue" style="font-size:2em">Last active: <span style="color:white">Thursday, 1st November</span></h3>
+</body>
+
+</html>
